@@ -1,0 +1,5 @@
+main.py file output a trained model:
+main: python main.py --dataset Devign --input_dir ../prep_script/
+
+run_model.py file will add graph_features symbol json file
+run_model: python run_model.py --model ./models/datasetsDevign-ffmqem3000-model.bin --dataset ../prep_script/Devign-ffmqem3000.bin
